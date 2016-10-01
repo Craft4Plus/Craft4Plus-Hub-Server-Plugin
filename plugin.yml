@@ -1,0 +1,7 @@
+main: com.craft4plushubserverplugin.c4phubserver
+version: 1.0
+name: C4PHubServer
+
+commands:
+  servers:
+    description: Travel to each of our servers.
