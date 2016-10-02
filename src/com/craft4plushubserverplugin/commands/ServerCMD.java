@@ -7,22 +7,22 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Listener;
 
-public class Commands implements Listener, CommandExecutor{
+public class ServerCMD implements Listener, CommandExecutor {
 
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		if (label.equalsIgnoreCase("servers")) {
 		if (!(sender instanceof Player)) {
-		 sender.sendMessage("You must be in-game to use this command!");
-		 return false;
-		 
+		   sender.sendMessage(ChatColor.RED + "You must be in-game to use this command!");
+		   return false;
 		}
 		
-		Player player = (Player) sender;
-		player.sendMessage(ChatColor.GREEN + "Select a server" + player.getName() + "!");
-		return true;
-		
-  }
-  return false;
- }
+		     Player player = (Player) sender;
+		     player.sendMessage(ChatColor.GREEN + "Select one of our servers!");
+		     return true;
+			
+		}
+		return false;
+	}
+
 }
