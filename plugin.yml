@@ -1,4 +1,4 @@
-main: com.craft4plushubserverplugin.c4phubserver
+main: com.craft4plushubserverplugin.c4phubserver.C4PHubServer
 version: 1.0
 name: C4PHubServer
 
