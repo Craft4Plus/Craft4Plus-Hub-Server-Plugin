@@ -3,6 +3,5 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="C:/Users/unite/Desktop/spigot-1.10.2.jar"/>
-	<classpathentry kind="lib" path="/Craft4Plus-master/spigot-1.10.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
