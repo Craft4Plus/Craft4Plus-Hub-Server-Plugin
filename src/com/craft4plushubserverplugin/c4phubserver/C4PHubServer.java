@@ -14,6 +14,8 @@ public class C4PHubServer extends JavaPlugin{
 		getCommand("servers").setExecutor(new ServerCMD());
 		
 	}
+	
+	@Override
 	public void onDisable() {
 		
 		System.out.println("Server plugin 'C4PHubServer' has been disabled!");
